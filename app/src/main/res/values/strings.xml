@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume &amp; Screenshot</string>
+    <string name="quick_tile_label">Volume Control</string>
+    <string name="accessibility_service_label">Volume &amp; Screenshot Service</string>
+    <string name="accessibility_service_description">Detects 3-finger swipe gesture for screenshot capture</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Main Activity Strings -->
+    <string name="welcome_title">Volume &amp; Screenshot Utility</string>
+    <string name="welcome_description">Control volume and capture screenshots with gestures</string>
+    <string name="enable_accessibility_service">Enable Accessibility Service</string>
+    <string name="enable_overlay">Enable Overlay UI</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Settings Strings -->
+    <string name="settings_accessibility_title">Accessibility Service</string>
+    <string name="settings_accessibility_description">Enable to detect 3-finger swipe gestures</string>
+    <string name="settings_overlay_title">Floating Overlay</string>
+    <string name="settings_overlay_description">Show floating volume control overlay</string>
+    <string name="settings_sensitivity_title">Gesture Sensitivity</string>
+    <string name="settings_sensitivity_description">Adjust 3-finger swipe detection sensitivity</string>
+    <string name="settings_vibration_title">Vibration Feedback</string>
+    <string name="settings_vibration_description">Vibrate when screenshot is taken</string>
+
+    <!-- Permission Strings -->
+    <string name="permission_accessibility_title">Accessibility Permission Required</string>
+    <string name="permission_accessibility_message">This app needs Accessibility Service permission to detect 3-finger swipe gestures. Please enable it in Settings.</string>
+    <string name="permission_overlay_title">Overlay Permission Required</string>
+    <string name="permission_overlay_message">This app needs permission to display overlay. Please enable it in Settings.</string>
+    <string name="permission_storage_title">Storage Permission Required</string>
+    <string name="permission_storage_message">This app needs storage permission to save screenshots. Please enable it in Settings.</string>
+
+    <!-- Action Strings -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Status Strings -->
+    <string name="status_accessibility_enabled">Accessibility Service: Enabled</string>
+    <string name="status_accessibility_disabled">Accessibility Service: Disabled</string>
+    <string name="status_overlay_enabled">Overlay: Enabled</string>
+    <string name="status_overlay_disabled">Overlay: Disabled</string>
+    <string name="status_screenshot_saved">Screenshot saved to Gallery</string>
+    <string name="status_screenshot_failed">Failed to save screenshot</string>
+</resources>
